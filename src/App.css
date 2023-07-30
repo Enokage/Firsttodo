@@ -1,0 +1,160 @@
+#naruto{
+  display: flex;
+  justify-content: center;
+}
+.k{
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.l{
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.m{
+  margin: 4px;
+}
+.App{
+  width: 500px;
+  border: solid rgb(150, 146, 146);
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+form{
+background-color: rgb(199, 207, 207);
+border-radius: 6px;
+box-shadow: 0 0 5px black;
+
+}
+.text-input{
+  width: 400px;
+  height: 25px;
+  margin: 5px;
+  margin-right: 1px;
+  border-radius: 7px;
+}
+.title-label{
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.day-label{
+  margin-right: 37px;
+}
+.title{
+  margin-top: 10px;
+  width: 400px;
+  height: 25px;
+  border-radius: 7px;
+}
+select{
+  width: 150px;
+  height: 25px;
+  border-radius: 7px;
+  margin-left:16px; 
+}
+option{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  color: aliceblue;
+  background-color: gray;
+  border-radius: 6px;
+}
+label{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.submit{
+  margin-left: 427px;
+  font-size: 15px;
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  background-color: darkgray;
+  transition: 1s;
+}
+.submit:hover{
+  background-color: rgb(110, 109, 109);
+  color:rgb(44, 44, 43);
+  font-size: 16px;
+}
+.tasks-body{
+  background-color: rgb(242, 242, 250);
+  box-shadow: 0 0 5px rgb(63, 62, 62);
+  border-radius: 8px;
+  display: flex;
+  margin:15px;
+  height: 80px;
+  transition: 1.5s;
+}
+.tasks-body:hover{
+  height: 81px;
+  width: 473px;
+}
+h3{
+  margin: 0%;
+  width: 300px;
+}
+h4{
+  margin: 0%;
+  width: 400px;
+}
+h4{
+  margin: 0%;
+}
+.delete{
+  margin-top:30px ;
+}
+.tasks{
+  width: 403px;
+  font-family:cursive;
+  margin-left: 10px; 
+
+}
+.button{
+  background-color: red;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgb(65, 43, 3);
+  transition: 1s;
+}
+.button:hover{
+  box-shadow: 0 0 10px rgb(48, 32, 4);
+  font-size: 10px;
+}
+h1{
+  text-align: center;
+  box-shadow: 0 0 6px rgb(224, 222, 222);
+  border: none;
+  transition: 1s;
+}
+h1:hover{
+  box-shadow: 0 0 8px rgb(39, 37, 37);
+  font-size: 33px;
+
+}
+.tt{
+  margin-left: 450px;
+  margin-bottom:0%;
+  margin-top: 0%;
+  border: none;
+}
+.cl{
+  border: none;
+  box-shadow: 0 0 5px;
+  background-color: darkkhaki;
+  width: 70px;
+}
+.op{
+  border: none;
+  box-shadow: 0 0 5px;
+  background-color: darkolivegreen;
+  width: 60px;
+}
+  
